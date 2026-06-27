@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Tailwind v4 için Sınıf (Class) Bazlı Dark Mode Ayarı - Sistem temasını ezer! */
+@custom-variant dark (&:is(.dark *));
+
+/* ERİŞİLEBİLİRLİK (YÜKSEK KONTRAST VE BÜYÜK FONT) MODU */
+html.high-contrast {
+  filter: contrast(140%) saturate(1.2);
+  font-size: 105%; 
+}
+
+html.high-contrast .text-slate-500 {
+  color: #334155; 
+}

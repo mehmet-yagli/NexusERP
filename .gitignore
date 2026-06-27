@@ -1,0 +1,5 @@
+# Modüller
+**/node_modules/
+
+# Gizli dosyalar
+**/.env
