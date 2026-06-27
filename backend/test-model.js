@@ -1,4 +1,4 @@
-const apiKey = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.GEMINI_API_KEY;
 
 async function modelleriGetir() {
   try {
